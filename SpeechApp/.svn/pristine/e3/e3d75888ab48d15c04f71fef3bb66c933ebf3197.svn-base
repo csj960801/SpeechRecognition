@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+a, a:hover {
+	color: #333;
+}
+
+li, ul, ol {
+	list-style: none;
+}
+
+.body .testRecognition {
+	text-align: center;
+}
+
+@media ( min-width :768px) {
+	* {
+		font-size: 16px;
+	}
+	.speech_wrapper .fieldset {
+		padding: 10px 0 20px 0;
+		text-align: center;
+		width: 50%;
+		margin: 5px auto;
+	}
+	.speech_wrapper  label[for="login_label"] {
+		padding: 5px 5px;
+		display: inline-block;
+	}
+}
+
+@media ( max-width :767px) {
+	* {
+		font-size: 12px;
+	}
+	.speech_wrapper .fieldset {
+		padding: 10px 0;
+		text-align: center;
+		width: 50%;
+		margin: 5px auto;
+	}
+}
