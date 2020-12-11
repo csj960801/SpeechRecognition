@@ -1,0 +1,2 @@
+# SpeechRecognition
+Korean ver
